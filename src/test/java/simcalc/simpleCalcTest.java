@@ -12,5 +12,11 @@ public class simpleCalcTest {
 		calc.add(10, 20);
 		assertEquals(30, calc.getResult());
 	}
+	@Test
+	public void testSub() {
+		SimpleCalc calc = new SimpleCalc();
+		calc.sub(20, 10);
+		assertEquals(10, calc.getResult());
+	}
 
 }
