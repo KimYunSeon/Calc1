@@ -18,5 +18,11 @@ public class simpleCalcTest {
 		calc.sub(20, 10);
 		assertEquals(10, calc.getResult());
 	}
+	@Test
+	public void testDiv() {
+		SimpleCalc calc = new SimpleCalc();
+		calc.div(20, 10);
+		assertEquals(2, calc.getResult());
+	}
 
 }
