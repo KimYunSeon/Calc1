@@ -19,11 +19,17 @@ public class simpleCalcTest {
 		assertEquals(10, calc.getResult());
 	}
 	@Test
+
 	public void testMulti() {
 		SimpleCalc calc = new SimpleCalc();
 		calc.mul(20, 10);
 		assertEquals(200, calc.getResult());
 	}
 
+	public void testDiv() {
+		SimpleCalc calc = new SimpleCalc();
+		calc.div(20, 10);
+		assertEquals(2, calc.getResult());
+	}
 
 }
