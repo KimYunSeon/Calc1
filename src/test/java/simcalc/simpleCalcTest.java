@@ -18,5 +18,27 @@ public class simpleCalcTest {
 		calc.sub(20, 10);
 		assertEquals(10, calc.getResult());
 	}
+	@Test
+
+	public void testMulti() {
+		SimpleCalc calc = new SimpleCalc();
+		calc.mul(20, 10);
+		assertEquals(200, calc.getResult());
+	}
+
+	@Test
+	public void testDiv() {
+		SimpleCalc calc = new SimpleCalc();
+		calc.div(20, 10);
+		assertEquals(2, calc.getResult());
+	}
+	@Test
+	public void testInc() {
+		SimpleCalc calc = new SimpleCalc();
+		calc.inc(100);
+		assertEquals(100, calc.getResult());
+		calc.inc(200);
+		assertEquals(300, calc.getResult());
+	}
 
 }
