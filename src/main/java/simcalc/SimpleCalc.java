@@ -13,7 +13,7 @@ public class SimpleCalc {
 		result = x*y;
 	}
 	public void div(int x, int y){
-		if(y != 0)
+		if(y != 0) //분모가 0인 경우 
 			result = x/y;
 		else
 			System.out.println("분모가 0입니다.");
