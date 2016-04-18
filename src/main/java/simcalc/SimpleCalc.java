@@ -22,4 +22,7 @@ public class SimpleCalc {
 	public int getResult(){
 		return result;
 	}
+	public void q(){
+		
+	}
 }
