@@ -19,6 +19,9 @@ public class SimpleCalc {
 	public void inc(int x){
 		result += x;
 	}
+	public void dec(int x){
+		result -= x;
+	}
 	public int getResult(){
 		return result;
 	}
